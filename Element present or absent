@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{int a[10],n,i;
+    printf("Enter the array numbers");
+    for(i=0;i<10;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+   for(i=0;i<10;i++){
+    printf("Array elements:%d\n",a[i]);
+   }
+
+printf("Enter the number of your choice");
+     scanf("%d",&n);
+
+if(n=a[i]){
+    printf("Number is present");
+}else
+{
+    printf("number is not present");
+}return 0;
+}
